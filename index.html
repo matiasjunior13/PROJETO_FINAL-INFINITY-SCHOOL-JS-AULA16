@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<link rel="shortcut icon" href="cine.png" type="image/x-icon" />
+<link rel="stylesheet" href="styles.css" />
+<title>Trailer&Pipocas</title>
+</head>
+<body>
+<!-- Barra de pesquisa -->
+<header class="container_pesquisa">
+    <h1>📽️Cinema&Pipocas🍿</h1>
+    <input type="text" id="searchInput" placeholder="Pesquisar filmes" />
+    <button id="searchButton">Pesquisar</button>
+    <button id="clearButton">Limpar</button>
+</header>
+<main>
+    <!-- Categoria: Em Cartaz -->
+<section class="categoria">
+    <h2>🎬 Filmes em Cartaz</h2>
+    <div id="emCartaz" class="container_filmes"></div>
+</section>
+
+    <!-- Categoria: Populares -->
+<section class="categoria">
+    <h2>🔥 Filmes Populares</h2>
+    <div id="populares" class="container_filmes"></div>
+</section>
+
+    <!-- Categoria: Mais bem avaliados -->
+<section class="categoria">
+    <h2>⭐ Mais Bem Avaliados</h2>
+    <div id="avaliados" class="container_filmes"></div>
+</section>
+
+    <!-- Categoria: Novidades -->
+<section class="categoria">
+    <h2>🆕 Novidades</h2>
+    <div id="novidades" class="container_filmes"></div>
+</section>
+
+    <!-- Categoria: Resultados da Pesquisa -->
+<section class="categoria">
+    <h2>🔎 Resultados da Pesquisa</h2>
+    <div id="resultadoPesquisa" class="container_filmes"></div>
+    </section>
+</main>
+
+<button
+    id="scrollTopButton"
+    style="display:none;"
+>
+    ⬆ Topo
+</button>
+
+<footer>
+    <p>Desenvolvido por &reg;Matias Júnior</p>
+</footer>
+
+<script src="base.js" defer></script>
+</body>
+</html>
